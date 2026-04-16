@@ -19,7 +19,8 @@ fetch("https://gist.githubusercontent.com/nurrachmat/f954f3aa979ab2a05daacae7224
 
               priceElement.textContent = parseFloat(price).toLocaleString('id-ID', { style: 'currency', currency: 'IDR' });
 
-
+            document.querySelector(".price").textContent = price;
+            
         }
     }
   
